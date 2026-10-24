@@ -1,0 +1,187 @@
+{
+ "script": "ops-lab-timing.mjs",
+ "pack": "<fix-pack-url>",
+ "host": "lab.pewterkit.com",
+ "runs": [
+  {
+   "run": 1,
+   "startedAt": "2026-10-24T19:46:06.537Z",
+   "steps": {
+    "before": {
+     "shown": "pewterkit-day0.firebaseapp.com",
+     "err": null,
+     "ms": 1701,
+     "shot": "before-chooser.png"
+    },
+    "s3_paste_snippet": {
+     "ms": 97,
+     "snippetChars": 179,
+     "snippet": "const u = new URL(req.url);\nif (u.pathname.startsWith('/__/auth/')) {\n  return fetch(new Request(new URL(u.pathname + u.search, 'https://pewterkit-day0.firebaseapp.com'), req));\n}"
+    },
+    "s4_set_authDomain": {
+     "ms": 0,
+     "value": "lab.pewterkit.com"
+    },
+    "redeploy_local_standin": {
+     "ms": 1,
+     "note": "local module reload, NOT Cloudflare deploy time"
+    },
+    "after": {
+     "shown": "pewterkit.com",
+     "err": null,
+     "ms": 1639,
+     "shot": "after-chooser.png"
+    }
+   },
+   "wrongToRightMs": 1834,
+   "packExpectedLine": "pewterkit-day0.firebaseapp.com",
+   "registrableExpected": "pewterkit.com",
+   "pass": true,
+   "packExpectedMatchesReality": false
+  },
+  {
+   "run": 2,
+   "startedAt": "2026-10-24T19:46:10.186Z",
+   "steps": {
+    "before": {
+     "shown": "pewterkit-day0.firebaseapp.com",
+     "err": null,
+     "ms": 1655,
+     "shot": "before-chooser.png"
+    },
+    "s3_paste_snippet": {
+     "ms": 39,
+     "snippetChars": 179,
+     "snippet": "const u = new URL(req.url);\nif (u.pathname.startsWith('/__/auth/')) {\n  return fetch(new Request(new URL(u.pathname + u.search, 'https://pewterkit-day0.firebaseapp.com'), req));\n}"
+    },
+    "s4_set_authDomain": {
+     "ms": 0,
+     "value": "lab.pewterkit.com"
+    },
+    "redeploy_local_standin": {
+     "ms": 1,
+     "note": "local module reload, NOT Cloudflare deploy time"
+    },
+    "after": {
+     "shown": "pewterkit.com",
+     "err": null,
+     "ms": 1334,
+     "shot": "after-chooser.png"
+    }
+   },
+   "wrongToRightMs": 1466,
+   "packExpectedLine": "pewterkit-day0.firebaseapp.com",
+   "registrableExpected": "pewterkit.com",
+   "pass": true,
+   "packExpectedMatchesReality": false
+  },
+  {
+   "run": 3,
+   "startedAt": "2026-10-24T19:46:13.402Z",
+   "steps": {
+    "before": {
+     "shown": "pewterkit-day0.firebaseapp.com",
+     "err": null,
+     "ms": 1558,
+     "shot": "before-chooser.png"
+    },
+    "s3_paste_snippet": {
+     "ms": 40,
+     "snippetChars": 179,
+     "snippet": "const u = new URL(req.url);\nif (u.pathname.startsWith('/__/auth/')) {\n  return fetch(new Request(new URL(u.pathname + u.search, 'https://pewterkit-day0.firebaseapp.com'), req));\n}"
+    },
+    "s4_set_authDomain": {
+     "ms": 0,
+     "value": "lab.pewterkit.com"
+    },
+    "redeploy_local_standin": {
+     "ms": 2,
+     "note": "local module reload, NOT Cloudflare deploy time"
+    },
+    "after": {
+     "shown": "pewterkit.com",
+     "err": null,
+     "ms": 1242,
+     "shot": "after-chooser.png"
+    }
+   },
+   "wrongToRightMs": 1379,
+   "packExpectedLine": "pewterkit-day0.firebaseapp.com",
+   "registrableExpected": "pewterkit.com",
+   "pass": true,
+   "packExpectedMatchesReality": false
+  },
+  {
+   "run": 4,
+   "startedAt": "2026-10-24T19:46:16.452Z",
+   "steps": {
+    "before": {
+     "shown": "pewterkit-day0.firebaseapp.com",
+     "err": null,
+     "ms": 1691,
+     "shot": "before-chooser.png"
+    },
+    "s3_paste_snippet": {
+     "ms": 40,
+     "snippetChars": 179,
+     "snippet": "const u = new URL(req.url);\nif (u.pathname.startsWith('/__/auth/')) {\n  return fetch(new Request(new URL(u.pathname + u.search, 'https://pewterkit-day0.firebaseapp.com'), req));\n}"
+    },
+    "s4_set_authDomain": {
+     "ms": 0,
+     "value": "lab.pewterkit.com"
+    },
+    "redeploy_local_standin": {
+     "ms": 2,
+     "note": "local module reload, NOT Cloudflare deploy time"
+    },
+    "after": {
+     "shown": "pewterkit.com",
+     "err": null,
+     "ms": 1203,
+     "shot": "after-chooser.png"
+    }
+   },
+   "wrongToRightMs": 1334,
+   "packExpectedLine": "pewterkit-day0.firebaseapp.com",
+   "registrableExpected": "pewterkit.com",
+   "pass": true,
+   "packExpectedMatchesReality": false
+  },
+  {
+   "run": 5,
+   "startedAt": "2026-10-24T19:46:19.567Z",
+   "steps": {
+    "before": {
+     "shown": "pewterkit-day0.firebaseapp.com",
+     "err": null,
+     "ms": 1564,
+     "shot": "before-chooser.png"
+    },
+    "s3_paste_snippet": {
+     "ms": 24,
+     "snippetChars": 179,
+     "snippet": "const u = new URL(req.url);\nif (u.pathname.startsWith('/__/auth/')) {\n  return fetch(new Request(new URL(u.pathname + u.search, 'https://pewterkit-day0.firebaseapp.com'), req));\n}"
+    },
+    "s4_set_authDomain": {
+     "ms": 0,
+     "value": "lab.pewterkit.com"
+    },
+    "redeploy_local_standin": {
+     "ms": 2,
+     "note": "local module reload, NOT Cloudflare deploy time"
+    },
+    "after": {
+     "shown": "pewterkit.com",
+     "err": null,
+     "ms": 1209,
+     "shot": "after-chooser.png"
+    }
+   },
+   "wrongToRightMs": 1313,
+   "packExpectedLine": "pewterkit-day0.firebaseapp.com",
+   "registrableExpected": "pewterkit.com",
+   "pass": true,
+   "packExpectedMatchesReality": false
+  }
+ ]
+}

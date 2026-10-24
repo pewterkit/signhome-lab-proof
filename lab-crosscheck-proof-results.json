@@ -1,0 +1,56 @@
+[
+ {
+  "name": "own-supabase-default",
+  "url": "https://lab.pewterkit.com/sb",
+  "at": "2026-10-24T19:46:22.945Z",
+  "shown": "tsojiydjirxcxrqunpih.supabase.co",
+  "pass": true,
+  "expect": "/\\.supabase\\.co$/",
+  "shot": "own-supabase-default.png"
+ },
+ {
+  "name": "own-routeA-gsi",
+  "url": "https://lab.pewterkit.com/gsi?mode=redirect",
+  "at": "2026-10-24T19:46:28.295Z",
+  "shown": "pewterkit.com",
+  "pass": true,
+  "expect": "/^pewterkit\\.com$/",
+  "shot": "own-routeA-gsi.png"
+ },
+ {
+  "name": "own-firebase-default",
+  "url": "https://lab.pewterkit.com/fb?ad=default",
+  "at": "2026-10-24T19:46:32.811Z",
+  "shown": "pewterkit-day0.firebaseapp.com",
+  "pass": true,
+  "expect": "/\\.firebaseapp\\.com$/",
+  "shot": "own-firebase-default.png"
+ },
+ {
+  "name": "own-route1-proxy",
+  "url": "https://lab.pewterkit.com/fb?ad=self",
+  "at": "2026-10-24T19:46:37.841Z",
+  "shown": "pewterkit.com",
+  "pass": true,
+  "expect": "/^pewterkit\\.com$/",
+  "shot": "own-route1-proxy.png"
+ },
+ {
+  "name": "own-firebase-static-default",
+  "url": "https://lab.pewterkit.com/fb-static-default",
+  "at": "2026-10-24T19:46:43.073Z",
+  "shown": "pewterkit-day0.firebaseapp.com",
+  "pass": true,
+  "expect": "/\\.firebaseapp\\.com$/",
+  "shot": "own-firebase-static-default.png"
+ },
+ {
+  "name": "own-route1-static",
+  "url": "https://lab.pewterkit.com/fb-static",
+  "at": "2026-10-24T19:46:48.153Z",
+  "shown": "pewterkit.com",
+  "pass": true,
+  "expect": "/^pewterkit\\.com$/",
+  "shot": "own-route1-static.png"
+ }
+]
